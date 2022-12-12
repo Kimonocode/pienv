@@ -1,0 +1,56 @@
+{
+  "files.autoSave": "afterDelay",
+  "files.defaultLanguage": "markdown",
+  "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true
+  },
+  "files.associations": {
+      "*.css": "tailwindcss"
+  },
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+  "editor.renderWhitespace": "trailing",
+  "editor.linkedEditing": true,
+  "editor.occurrencesHighlight": false,
+  "editor.suggest.insertMode": "replace",
+  "editor.fontFamily": "'JetBrains Mono', 'Droid Sans Mono', 'monospace', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  "editor.lineHeight": 20,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.quickSuggestions": {
+      "strings": true
+  },
+  "explorer.autoReveal": false,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.tree.indent": 16,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.colorTheme": "Tokyo Night",
+  "workbench.iconTheme": "eq-material-theme-icons-darker",
+  "workbench.colorCustomizations": {
+      "[Tokyo Night]":{
+          "editor.selectionBackground":"#383534",
+          "editor.selectionHighlightBackground": "#567894"
+      }
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "tailwindCSS.emmetCompletions":true,
+  "tailwindCSS.includeLanguages": {
+      "plaintext": "html"
+  },
+  "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.startupEditor": "none"
+}
