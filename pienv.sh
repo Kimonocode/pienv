@@ -36,6 +36,7 @@ if [[ $? > 0 ]]; then
   echo "curl n'est pas installé, installation..."
   sudo apt-get install curl
   if [[ $? > 0 ]]; then
+    warning=$((warning+1))
     echo "Warning: Impossible d'installer curl"
   else 
     curl --version
@@ -58,13 +59,12 @@ fi
 
 echo -e "\nInstallation\n"
 
-if [[ $node_error -ne 1 ]]; then
-  sudo apt-get install nodejs
-  if [[ $? > 0 ]]; then
-    warning=$((warning+1))
-    echo "Warning: impossible d'installer node js"
-  fi  
-fi
+sudo apt-get install nodejs
+
+if [[ $? > 0 ]]; then
+  warning=$((warning+1))
+  echo "Warning: impossible d'installer node js"
+fi  
 
 node -v && npm -v
 
