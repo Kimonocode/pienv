@@ -10,18 +10,6 @@ ainsi que la version de notre distribution
 ```shell
 sudo apt-get update && sudo apt-get upgrade
 ```
-## Installation de [Git](https://git-scm.com/)
-
-Pour pouvoir récupérer mes différents dépots et lancer différents scripts
-
-```shell
-sudo apt-get install git
-```
-Et je configure mon git avec les deux variables de base
-
-```shell
-git config --global user.email "ronald.github.dev@gmail.com" && git config --global user.name "kimonocode"
-```
 ## Les éditeurs
 
 Pour développer sur un Raspberry, j'utilise simplement deux éditeurs
