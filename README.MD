@@ -1,5 +1,3 @@
-![beautiful pi logo config](/assets/pi-logo.png "beautiful pi logo config")
-
 # A propos
 
 Ce script est un helper qui installe les différentes dépendances dont j'ai besoin pour dévelloper sur un RaspberryPi 4 :blush:
