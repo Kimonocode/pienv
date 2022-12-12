@@ -1,6 +1,8 @@
+![beautiful pi logo config](/assets/pi-logo.png "beautiful pi logo config")
+
 # A propos
 
-Ce script est un helper qui installe les différentes dépendances dont j'ai besoin pour dévelloper sur un RaspberryPi 4 :)
+Ce script est un helper qui installe les différentes dépendances dont j'ai besoin pour dévelloper sur un RaspberryPi 4 :blush:
 
 ## Mise à jours des packages
 
@@ -100,5 +102,5 @@ Avec un simple
 ```shell
 sudo apt-get install redis
 ```
-Et je n'ai plus qu'à attendre que tous cela s'exécute :)
+Et je n'ai plus qu'à attendre que tous cela s'exécute :coffee: :blush:
 
