@@ -4,13 +4,15 @@ Ce script est un helper qui installe les différentes dépendances dont j'ai bes
 
 Actuellement, j'utilise un rapsberry pi 4 8gb ram
 
+Pour tous les scripts d'installations, j'ajoute le drapeau ( -y ) pour ignorer les questions [O/n ?]
+
 ## Mise à jours des packages
 
 On commence par un coup d'apt-get update / upgrade pour remettre à jours la version de nos packages 
 ainsi que la version de notre distribution
 
 ```shell
-sudo apt-get update && sudo apt-get upgrade
+sudo apt-get update && sudo apt-get -y upgrade
 ```
 ## Les éditeurs
 
@@ -22,9 +24,6 @@ Pour développer sur un Raspberry, j'utilise simplement deux éditeurs
 ```shell
 sudo apt-get -y install code && sudo apt-get install vim
 ```
-Pour tous les scripts d'installations, j'ajoute le drapeau ( -y ) pour ignorer les questions
-[O/n ?]
-
 ## Installation des différentes technologies
 
 Ok, maintenant que mes éditeurs sont bon, j'ai besoin de plusieurs technologies que j'utilise couramment

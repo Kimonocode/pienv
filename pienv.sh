@@ -8,7 +8,7 @@ warning=0
 
 echo -e "\nMise à jours des pachages et de la distribution...\n"
 
-sudo apt-get update && sudo apt-get upgrade
+sudo apt-get update && sudo apt-get -y upgrade
 
 echo -e "\n###############################################################################"
 
