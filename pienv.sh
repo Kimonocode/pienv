@@ -16,7 +16,7 @@ echo -e "\n#####################################################################
 
 echo -e "\nInstallation de Visual Studio Code et Vim...\n"
 
-sudo apt-get -y install code && sudo apt-get install vim
+sudo apt-get -y install code && sudo apt-get -y install vim
 
 if [[ $? > 0 ]]; then
   warning=$((warning+1))

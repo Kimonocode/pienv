@@ -22,7 +22,7 @@ Pour développer sur un Raspberry, j'utilise simplement deux éditeurs
 - [Vim](https://www.vim.org/) pour naviguer / éditer rapidement mes fichers de configuration
 
 ```shell
-sudo apt-get -y install code && sudo apt-get install vim
+sudo apt-get -y install code && sudo apt-get -y install vim
 ```
 ## Installation des différentes technologies
 
