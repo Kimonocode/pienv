@@ -16,7 +16,7 @@ echo -e "\n#####################################################################
 
 echo -e "\nInstallation de Visual Studio Code et Vim...\n"
 
-sudo apt-get install code && sudo apt-get install vim
+sudo apt-get -y install code && sudo apt-get install vim
 
 if [[ $? > 0 ]]; then
   warning=$((warning+1))
@@ -34,7 +34,7 @@ curl --version
 if [[ $? > 0 ]]; then
   warning=$((warning+1))
   echo "curl n'est pas installé, installation..."
-  sudo apt-get install curl
+  sudo apt-get -y install curl
   if [[ $? > 0 ]]; then
     warning=$((warning+1))
     echo "Warning: Impossible d'installer curl"
@@ -59,7 +59,7 @@ fi
 
 echo -e "\nInstallation\n"
 
-sudo apt-get install nodejs
+sudo apt-get -y install nodejs
 
 if [[ $? > 0 ]]; then
   warning=$((warning+1))
@@ -89,7 +89,7 @@ echo -e "\n#####################################################################
 
 echo -e "\nInstallation de php\n"
 
-sudo apt install php8.1-cli
+sudo apt-get -y install php8.1-cli
 
 if [[ $? > 0 ]]; then
   warning=$((warning+1))
@@ -104,7 +104,7 @@ echo -e "\n#####################################################################
 
 echo -e "\nInstallation de mysql\n"
 
-sudo apt-get install mariadb-server
+sudo apt-get -y install mariadb-server
 
 if [[ $? > 0 ]]; then
   warning=$((warning+1))
@@ -117,7 +117,7 @@ echo -e "\n#####################################################################
 
 echo -e "\nInstallation de Redis\n"
 
-sudo apt-get install redis
+sudo apt-get -y install redis
 
 if [[ $? > 0 ]]; then
   warning=$((warning+1))
