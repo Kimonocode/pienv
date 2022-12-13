@@ -1,6 +1,6 @@
 # A propos
 
-Ce script est un helper qui installe les différentes dépendances dont j'ai besoin pour dévelloper sur un [RaspberryPi](https://www.kubii.fr/content/72-quest-ce-que-le-raspberry-pi) :blush:
+Ce script est un helper qui installe les différentes dépendances dont j'ai besoin pour développer sur un [RaspberryPi](https://www.kubii.fr/content/72-quest-ce-que-le-raspberry-pi) :blush:
 
 Actuellement, j'utilise un rapsberry pi 4 8gb ram
 
