@@ -50,7 +50,7 @@ sudo apt-get -y install nodejs
 Et nous vérifions les versions
 
 ```shell
-node --version && npm --version
+node -v && npm -v
 ```
 ### Installation de yarn
 
