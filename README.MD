@@ -26,7 +26,7 @@ sudo apt-get -y install code && sudo apt-get -y install vim
 ```
 ## Installation des différentes technologies
 
-Ok, maintenant que mes éditeurs sont bon, j'ai besoin de plusieurs technologies que j'utilise couramment
+Ok, maintenant que mes éditeurs sont bons, j'ai besoin de plusieurs technologies que j'utilise couramment
 
 - [Node js](https://nodejs.org/en/) étant donné que je fais beaucoup d'[Adonis](https://adonisjs.com/)
 - [Yarn](https://yarnpkg.com/) si vous connaissez node js et npm, vous devez connaitre yarn
