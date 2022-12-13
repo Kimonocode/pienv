@@ -70,7 +70,7 @@ sudo apt-get -y install php8.1-cli
 
 Super, nous avons nos technos maintenant j'utilise deux principales bases de données pour dévelloper
 
-- [Mysql](https://www.mysql.com/fr/) qui est une base de donnée de type relationelle
+- [Mysql](https://www.mysql.com/fr/) qui est une base de donnée de type relationnelle
 - [Redis](https://redis.io/) qui est une base de donnée de type clé -> valeur qui enregistre les informations sur la ram plutôt que sur le disque 
 
 ### Installation de mysql
